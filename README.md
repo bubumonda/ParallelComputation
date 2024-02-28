@@ -28,6 +28,6 @@ Esta bandera optimiza agresivamente el tamaño de instrucciones sobre la velocid
 <img style="height:300px" src="./images/ensamble_jacobiO1.png">
 <img style="height:300px" src="./images/ensamble_jacobiO0.png">
 <h5>Al ver las optimizaciones a nivel de lenguaje ensamble se nota como las instrucciones se reducen o se utiliza otro tipo de operaciones para mejorar la velocidad</h5>
-<h4>4. El algoritmo que probe para optimizarlo esta escrito en C++ y multiplica las matrices con punteros, lo optimicé con las banderas -O al igual que en C y a nivel de velocidad aumenta sustancialmente como el numero de sus instrucciones que en -O1 
+<h4>4. El algoritmo que probe para optimizarlo esta escrito en C++ se llama <strong>matmulti.cpp</strong>``` y multiplica las matrices con punteros, lo optimicé con las banderas -O al igual que en C y a nivel de velocidad aumenta sustancialmente como el numero de sus instrucciones que en -O1 
 van hasta 590 instrucciones se reducen a 517 con la bandea -Oz, las compilaciones se encuentran en la carpeta mat_multiply
 </h4>
